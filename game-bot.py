@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import credentials as game
 
-new_echo_bot = telebot.TeleBot("712045806:AAESkoqbbicN0Vy-20_QzV21hECf2Ag-0vE") 
+new_echo_bot = telebot.TeleBot("xxx") 
 guess_game = game.GuessGame()
 
 @new_echo_bot.message_handler(content_types=['text'])
